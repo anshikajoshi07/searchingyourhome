@@ -1,0 +1,21 @@
+// 
+// Colors
+// 
+
+// Define Grayscale values used in variables before Bootstrap loads
+// Darker base for improved contrast with gradient background
+$gray-900: #1f2937;
+
+// Override Bootstrap color and state values (purple accent)
+$teal: #6d28d9;
+$primary: $teal;
+
+// Background gradient variables for a light, aesthetic look
+$bg-gradient-start: #f8fafc; // very light
+$bg-gradient-end: #f3e8ff;   // pale lavender
+
+// Body text color to read well on the light background
+$body-text-color: #1f2937;
+
+// Override Bootstrap default contrast ratio
+$min-contrast-ratio: 3;

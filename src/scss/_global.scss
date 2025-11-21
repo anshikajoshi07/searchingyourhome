@@ -1,0 +1,47 @@
+// 
+// Global theme styling
+// 
+
+// Increase base font styling in the body only
+
+body {
+    font-size: $font-size-lg;
+    color: $body-text-color;
+    background: linear-gradient(135deg, $bg-gradient-start 0%, $bg-gradient-end 100%);
+    background-attachment: fixed;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+// Set horizontal rule color to border color
+
+hr {
+    border-color: $border-color;
+    opacity: 1;
+}
+
+// Set defaults for the paragraph element
+
+p {
+    margin: 2rem 0;
+
+    a {
+        text-decoration: underline;
+        color: $primary;
+    }
+}
+
+// Subtle translucent panels to lift content from the background
+.container,
+.post-preview,
+.card {
+    background-color: rgba(255,255,255,0.85);
+    border-radius: 8px;
+    padding: 1rem;
+    box-shadow: 0 6px 18px rgba(31,41,55,0.06);
+}
+
+blockquote {
+    font-style: italic;
+    color: lighten($gray-900, 45%);
+}
